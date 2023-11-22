@@ -1,0 +1,23 @@
+{
+  "name": "projet1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fichier.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "mongoose-id-validator": "^0.6.0",
+    "mongoose-unique-validator": "^4.0.0"
+  }
+}
